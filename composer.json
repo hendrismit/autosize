@@ -13,7 +13,7 @@
     ],
     "type": "component",
     "require": {
-        "robloach/component-installer": "*",
+        "robloach/component-installer": "*"
     },
     "extra": {
         "component": {
