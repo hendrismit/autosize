@@ -1,0 +1,28 @@
+{
+    "name": "hendrismit/autosize",
+    "description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+    "homepage": "http://www.jacklmoore.com/autosize",
+    "version": "2.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name" : "Jack Moore",
+            "email" : "hello@jacklmoore.com",
+            "homepage": "http://www.jacklmoore.com"
+        }
+    ],
+    "type": "component",
+    "require": {
+        "robloach/component-installer": "*",
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "dest/autosize.js"
+            ],
+            "files": [
+                "dest/autosize.min.js"
+            ]
+        }
+    }
+}
